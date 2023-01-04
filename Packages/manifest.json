@@ -14,7 +14,6 @@
     "dev.voltstro.unitywebbrowser.communication.pipes": "1.0.1",
     "dev.voltstro.unitywebbrowser.engine.cef": "2.0.1-106.1.1",
     "dev.voltstro.unitywebbrowser.engine.cef.linux.x64": "2.0.1-106.1.1",
-    "dev.voltstro.unitywebbrowser.engine.cef.macos.x64": "file:/Users/tarikmoussa/tubCloud/Uni/TU-Berlin/WESE23/awt/UnityWebBrowser.Engine.Cef.MacOS-x64",
     "dev.voltstro.unitywebbrowser.engine.cef.win.x64": "2.0.1-106.1.1",
     "dev.voltstro.unitywebbrowser.unix-support": "1.0.1",
     "com.unity.modules.ai": "1.0.0",
