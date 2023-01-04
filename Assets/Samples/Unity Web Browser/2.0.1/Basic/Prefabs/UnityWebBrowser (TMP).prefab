@@ -1035,10 +1035,10 @@ RectTransform:
   m_Father: {fileID: 7454210983584133261}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: -32}
-  m_SizeDelta: {x: 952, y: 472}
+  m_SizeDelta: {x: 0, y: -20}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &7454210984040730583
 CanvasRenderer:
@@ -1089,13 +1089,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   browserClient:
     engine: {fileID: 11400000, guid: 649ce3cfdf00ca615abcf2bb62227f5c, type: 2}
-    initialUrl: localhost:3000
+    initialUrl: https://voltstro.dev
     resolution:
       Width: 1920
       Height: 1080
     backgroundColor:
       serializedVersion: 2
-      rgba: 4284692598
+      rgba: 4294967295
     javascript: 1
     cache: 1
     webRtc: 0
