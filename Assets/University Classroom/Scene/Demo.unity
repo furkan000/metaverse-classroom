@@ -3794,11 +3794,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd064a5c0439b0047abb102eb6f29451, type: 3}
---- !u!1 &1126882307 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7660456627446359811, guid: 7df6a55ecfc1041018c1a72f79599a28, type: 3}
-  m_PrefabInstance: {fileID: 7658741686635353944}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1134274489
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4215,74 +4210,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3fd52f4f6716b10439fa961f249c2f71, type: 3}
---- !u!1 &1222503437
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1222503440}
-  - component: {fileID: 1222503439}
-  - component: {fileID: 1222503438}
-  m_Layer: 0
-  m_Name: EventSystem
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1222503438
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1222503437}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SendPointerHoverToParent: 1
-  m_HorizontalAxis: Horizontal
-  m_VerticalAxis: Vertical
-  m_SubmitButton: Submit
-  m_CancelButton: Cancel
-  m_InputActionsPerSecond: 10
-  m_RepeatDelay: 0.5
-  m_ForceModuleActive: 0
---- !u!114 &1222503439
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1222503437}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_FirstSelected: {fileID: 1126882307}
-  m_sendNavigationEvents: 1
-  m_DragThreshold: 10
---- !u!4 &1222503440
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1222503437}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 136
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1249498152
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5647,7 +5574,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1648179727}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 40b5a5be18d2f1b4ea3bfecb6a00bec2, type: 3}
   m_Name: 
@@ -5674,7 +5601,7 @@ Behaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1648179727}
-  m_Enabled: 0
+  m_Enabled: 1
 --- !u!20 &1648179732
 Camera:
   m_ObjectHideFlags: 0
@@ -7812,7 +7739,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4618459112345159736, guid: 544ebc617adf6419981059f145ce353c, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 544ebc617adf6419981059f145ce353c, type: 3}
@@ -7823,10 +7750,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 6979605012001807357, guid: 7df6a55ecfc1041018c1a72f79599a28, type: 3}
-      propertyPath: browserClient.initialUrl
-      value: https://docs.google.com/presentation/d/e/2PACX-1vRmNyQ_2NqW59IOW9zgsvqoqvwg_s-UdfcSFhgjM-P-8HIjcUGz2hCkSLmBldn44Q7A9WzFWUk8tScl/pub?start=false&loop=false&delayms=3000#slide=id.p1
-      objectReference: {fileID: 0}
     - target: {fileID: 7660456627446359811, guid: 7df6a55ecfc1041018c1a72f79599a28, type: 3}
       propertyPath: m_Name
       value: Blackboard  whit UI
@@ -7879,15 +7802,5 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8441831115023253363, guid: 7df6a55ecfc1041018c1a72f79599a28, type: 3}
-      propertyPath: cursorTexture
-      value: 
-      objectReference: {fileID: 2800000, guid: 19e5ba7d75c4f2e4e8d2151606339bf3, type: 3}
-    - target: {fileID: 9069924007938700045, guid: 7df6a55ecfc1041018c1a72f79599a28, type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 1518970418475039468, guid: 7df6a55ecfc1041018c1a72f79599a28, type: 3}
-    - {fileID: 8441831115023253363, guid: 7df6a55ecfc1041018c1a72f79599a28, type: 3}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7df6a55ecfc1041018c1a72f79599a28, type: 3}
