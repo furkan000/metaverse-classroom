@@ -22,7 +22,7 @@ export  default function Drawingbox() {
                   ],
 
 
-                  toolsHeader
+                
             },
 
             viewer.current,
