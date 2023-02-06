@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: Desk 1
   m_EditorClassIdentifier: 
   connectionTimeout: 7000
-  inPipeName: DeskIn1
-  outPipeName: DeskOut1
+  inPipeName: UnityWebBrowserIn
+  outPipeName: UnityWebBrowserOut

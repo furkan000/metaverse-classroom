@@ -218,7 +218,7 @@
       "url": "https://upm-pkgs.voltstro.dev"
     },
     "dev.voltstro.unitywebbrowser.engine.cef.macos.x64": {
-      "version": "file:../tariks_stuff/UnityWebBrowser.Engine.Cef.MacOS-x64",
+      "version": "file:/Users/tarikmoussa/Desktop/tariks_stuff/UnityWebBrowser.Engine.Cef.MacOS-x64",
       "depth": 0,
       "source": "local",
       "dependencies": {
@@ -281,6 +281,15 @@
       "depth": 1,
       "source": "registry",
       "dependencies": {},
+      "url": "https://upm-pkgs.voltstro.dev"
+    },
+    "org.nuget.voltrpc.communication.pipes": {
+      "version": "3.0.0",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "org.nuget.voltrpc": "3.0.0"
+      },
       "url": "https://upm-pkgs.voltstro.dev"
     },
     "org.nuget.voltrpc.extension.memory": {
