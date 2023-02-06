@@ -178,6 +178,13 @@
       "dependencies": {},
       "url": "https://upm-pkgs.voltstro.dev"
     },
+    "dev.voltstro.nuget.mono.unix": {
+      "version": "1.0.0",
+      "depth": 2,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://upm-pkgs.voltstro.dev"
+    },
     "dev.voltstro.unitywebbrowser": {
       "version": "2.0.1",
       "depth": 0,
@@ -210,12 +217,30 @@
       },
       "url": "https://upm-pkgs.voltstro.dev"
     },
+    "dev.voltstro.unitywebbrowser.engine.cef.macos.x64": {
+      "version": "file:../tariks_stuff/UnityWebBrowser.Engine.Cef.MacOS-x64",
+      "depth": 0,
+      "source": "local",
+      "dependencies": {
+        "dev.voltstro.unitywebbrowser.engine.cef": "2.0.0-preview.3-99.2.6",
+        "dev.voltstro.unitywebbrowser.unix-support": "1.0.0"
+      }
+    },
     "dev.voltstro.unitywebbrowser.engine.cef.win.x64": {
       "version": "2.0.1-106.1.1",
       "depth": 0,
       "source": "registry",
       "dependencies": {
         "dev.voltstro.unitywebbrowser.engine.cef": "2.0.1-106.1.1"
+      },
+      "url": "https://upm-pkgs.voltstro.dev"
+    },
+    "dev.voltstro.unitywebbrowser.unix-support": {
+      "version": "1.0.0",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {
+        "dev.voltstro.nuget.mono.unix": "1.0.0"
       },
       "url": "https://upm-pkgs.voltstro.dev"
     },

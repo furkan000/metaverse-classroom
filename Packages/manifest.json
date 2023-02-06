@@ -13,6 +13,7 @@
     "com.unity.visualscripting": "1.7.8",
     "dev.voltstro.unitywebbrowser": "2.0.1",
     "dev.voltstro.unitywebbrowser.communication.pipes": "1.0.1",
+    "dev.voltstro.unitywebbrowser.engine.cef.macos.x64": "file:../tariks_stuff/UnityWebBrowser.Engine.Cef.MacOS-x64",
     "dev.voltstro.unitywebbrowser.engine.cef.win.x64": "2.0.1-106.1.1",
     "com.unity.modules.ai": "1.0.0",
     "com.unity.modules.androidjni": "1.0.0",
