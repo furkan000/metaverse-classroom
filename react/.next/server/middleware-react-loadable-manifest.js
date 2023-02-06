@@ -1,1 +1,1 @@
-self.__REACT_LOADABLE_MANIFEST={"desk.js -> @pdftron/webviewer":{"id":"desk.js -> @pdftron/webviewer","files":["static/chunks/node_modules_pdftron_webviewer_webviewer_min_js.js"]}}
+self.__REACT_LOADABLE_MANIFEST={"blackboard.js -> @pdftron/webviewer":{"id":"blackboard.js -> @pdftron/webviewer","files":["static/chunks/node_modules_pdftron_webviewer_webviewer_min_js.js"]}}
