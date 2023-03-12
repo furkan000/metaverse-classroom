@@ -75,7 +75,7 @@ crashlytics-build.properties
 /[Aa]ssets/[Ss]treamingAssets/aa/*
 
 #
-*/UnityWebBrowser.Engine.Cef.MacOS-x64*
+# */UnityWebBrowser.Engine.Cef.MacOS-x64*
 
 
 
