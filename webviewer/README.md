@@ -6,9 +6,6 @@
 
 This repo is specifically designed for any users interested in integrating WebViewer into a Next.js project. With the source code access, it gives developers full control to customize & style the UI, build custom controls & logic, integrate into workflows, or build a UI from scratch.
 
-## Demo
-
-You can explore all of the functionality in our [showcase](https://www.pdftron.com/webviewer/demo/).
 
 ## Initial setup
 
