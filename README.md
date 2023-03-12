@@ -9,7 +9,7 @@ To address these limitations, our project goal was to develop a virtual meeting 
 ## How to run
 1. Run the whiteboard and student desk web application
 ```bash
-cd tariks_stuff/react
+cd webviewer
 npm install
 npm run build
 npm run dev
