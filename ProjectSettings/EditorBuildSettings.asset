@@ -15,4 +15,5 @@ EditorBuildSettings:
     path: Assets/Scenes/DuringClass.unity
     guid: 097b24b9647244e949817f228950ce5d
   m_configObjects:
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 663d5f7ff567126439bf73c2638c511a, type: 2}
     com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 9f25d588c58b78a4a8009c869bd641d4, type: 2}
