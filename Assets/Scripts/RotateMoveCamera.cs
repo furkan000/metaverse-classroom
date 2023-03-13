@@ -32,7 +32,7 @@ public class RotateMoveCamera : MonoBehaviour
             MouseY = y;
             Camera.transform.localEulerAngles = new Vector3(-rotationY, rotationX, 0);
         }
-        if (Input.GetKey(KeyCode.W))
+        /* if (Input.GetKey(KeyCode.W))
         { // al precionar la tecla.W))
             transform.Translate(new Vector3(0, 0, 0.1f)); //cambiar posision.trasladar (aun nuevo vector(usando estas codenadas)
         }
@@ -51,6 +51,6 @@ public class RotateMoveCamera : MonoBehaviour
             {
                 transform.Translate(new Vector3(-0.1f, 0, 0)); //cambiar posision.trasladar (aun nuevo vector(usando estas codenadas)
             }
-        }
-        }
+        } */
+    }
 }

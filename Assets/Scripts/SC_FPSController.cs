@@ -23,8 +23,9 @@ public class SC_FPSController : MonoBehaviour
 
     void Start()
     {
-        characterController = GetComponent<CharacterController>();
 
+        if (RoleManager.username != "teacher" && RoleManager.username != "Teacher") { this.enabled = false; }
+        characterController = GetComponent<CharacterController>();
         // Lock cursor
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
