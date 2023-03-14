@@ -15,6 +15,7 @@
     "next": "latest",
     "react": "latest",
     "react-dom":"latest"
+
   },
   "devDependencies": {
     "eslint": "7.32.0",

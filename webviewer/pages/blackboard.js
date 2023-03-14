@@ -2,7 +2,6 @@ import { useEffect, useRef } from 'react';
 
 export default function Blackboard() {
     const viewer = useRef(null);
-
     useEffect(() => {
         import('@pdftron/webviewer').then(({ default: WebViewer }) => {
             WebViewer(
@@ -24,3 +23,11 @@ export default function Blackboard() {
         </div>
     );
 }
+
+
+
+
+
+
+
+

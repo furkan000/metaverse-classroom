@@ -3,7 +3,7 @@ import Image from 'next/image';
 //import WebViewer from '@pdftron/webviewer';
 
 
-export  default function Desk() {
+export  default  function Desk() {
     const viewer = useRef(null);
 
     useEffect(() => {
