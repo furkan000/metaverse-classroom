@@ -2,7 +2,7 @@ import React, { useEffect,useState } from "react";
 import Router from 'next/router'
 export default function MyPage () {
     const [loaded,setLoaded] = useState(false)
-    UseEffect(() => {
+    useEffect(() => {
         const {pathname} = Router
         // conditional redirect
         if(pathname == '/' ){
