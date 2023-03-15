@@ -7,7 +7,17 @@ To address these limitations, our project goal was to develop a virtual meeting 
 
 
 ## How to Run
-1. Run the whiteboard and student desk web application
+
+1. Run the facial tracking model
+```bash
+git clone https://github.com/emilianavt/OpenSeeFace
+cd OpenSeeFace
+pip install ort-nightly opencv-python pillow numpy # For Python 3.10 and above
+# pip install onnxruntime opencv-python pillow numpy # For Python 3.6 - 3.9
+python facetracker.py
+```
+
+2. Run the whiteboard and student desk web application
 ```bash
 cd webviewer
 docker-compose up
@@ -22,16 +32,6 @@ npm run build
 npm run dev
 ```
 
-
-
-2. Run the facial tracking model
-```bash
-git clone https://github.com/emilianavt/OpenSeeFace
-cd OpenSeeFace
-pip install ort-nightly opencv-python pillow numpy # For Python 3.10 and above
-# pip install onnxruntime opencv-python pillow numpy # For Python 3.6 - 3.9
-python facetracker.py
-```
 3. See "How to Play!"
 
 ## How to Play!
