@@ -23,8 +23,8 @@ pip install ort-nightly opencv-python pillow numpy # For Python 3.10 and above
 # pip install onnxruntime opencv-python pillow numpy # For Python 3.6 - 3.9
 python facetracker.py
 ```
-3. Start the project in Unity
+3. See "How to Play!"
 
-## Testing and Trial
+## How To Play!
 
-To try out this project, start by opening the MainMenu scene. From there, you can log in using either "Teacher" or "teacher" as the username to access the teacher's perspective. If you use any other username, you will be given access to the student's perspective. Note that the password is not checked, so you can use any value to log in.
+To try out this project, start the project in Unity, start by opening the MainMenu scene. From there, you can log in using either "Teacher" or "teacher" as the username to access the teacher's perspective. If you use any other username, you will be given access to the student's perspective. Note that the password is not checked, so you can use any value to log in.
