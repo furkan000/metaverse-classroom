@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.12731689, g: 0.13414702, b: 0.1210784, a: 1}
+  m_IndirectSpecularColor: {r: 0.12731749, g: 0.13414757, b: 0.1210787, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -446,13 +446,37 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2208811512082126497}
     m_Modifications:
+    - target: {fileID: 2739586916104252677, guid: 3b3d48fac993e4ffba029d158fb812ba, type: 3}
+      propertyPath: browserClient.initialUrl
+      value: http://localhost:3000
+      objectReference: {fileID: 0}
+    - target: {fileID: 2739586916104252677, guid: 3b3d48fac993e4ffba029d158fb812ba, type: 3}
+      propertyPath: browserClient.communicationLayer
+      value: 
+      objectReference: {fileID: 11400000, guid: 17455f25ab0314ee7abcbe7a0691bb28, type: 2}
+    - target: {fileID: 2739586916104252678, guid: 3b3d48fac993e4ffba029d158fb812ba, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2739586916104252678, guid: 3b3d48fac993e4ffba029d158fb812ba, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2739586916104252678, guid: 3b3d48fac993e4ffba029d158fb812ba, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2739586916104252678, guid: 3b3d48fac993e4ffba029d158fb812ba, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2739586917454544693, guid: 3b3d48fac993e4ffba029d158fb812ba, type: 3}
       propertyPath: m_Name
       value: UnityWebBrowser-blackboard
       objectReference: {fileID: 0}
     - target: {fileID: 2739586917454544693, guid: 3b3d48fac993e4ffba029d158fb812ba, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2739586917454544697, guid: 3b3d48fac993e4ffba029d158fb812ba, type: 3}
       propertyPath: m_Pivot.x
@@ -3904,13 +3928,37 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1785934046}
     m_Modifications:
+    - target: {fileID: 5321692968675703810, guid: 64596d3a2dd0f4d34b533176ec50ff91, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5321692968675703810, guid: 64596d3a2dd0f4d34b533176ec50ff91, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5321692968675703810, guid: 64596d3a2dd0f4d34b533176ec50ff91, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5321692968675703810, guid: 64596d3a2dd0f4d34b533176ec50ff91, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5321692968675703935, guid: 64596d3a2dd0f4d34b533176ec50ff91, type: 3}
+      propertyPath: browserClient.initialUrl
+      value: http://localhost:3000/desk
+      objectReference: {fileID: 0}
+    - target: {fileID: 5321692968675703935, guid: 64596d3a2dd0f4d34b533176ec50ff91, type: 3}
+      propertyPath: browserClient.resolution.Height
+      value: 1080
+      objectReference: {fileID: 0}
     - target: {fileID: 5321692969813759331, guid: 64596d3a2dd0f4d34b533176ec50ff91, type: 3}
       propertyPath: m_Name
       value: UnityWebBrowser-Desk
       objectReference: {fileID: 0}
     - target: {fileID: 5321692969813759331, guid: 64596d3a2dd0f4d34b533176ec50ff91, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5321692969813759335, guid: 64596d3a2dd0f4d34b533176ec50ff91, type: 3}
       propertyPath: m_Pivot.x
@@ -5433,7 +5481,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &628531020
 RectTransform:
   m_ObjectHideFlags: 0
@@ -10223,7 +10271,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1271423759
 RectTransform:
   m_ObjectHideFlags: 0
