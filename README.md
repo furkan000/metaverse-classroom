@@ -6,7 +6,7 @@ While video conferencing platforms offer convenience and accessibility from any 
 To address these limitations, our project goal was to develop a virtual meeting environment that closely mimics the experience of real-life meetings and provides opportunities for increased interaction and engagement.
 
 
-## How to run
+## How to Run
 1. Run the whiteboard and student desk web application
 ```bash
 cd webviewer
@@ -25,6 +25,6 @@ python facetracker.py
 ```
 3. See "How to Play!"
 
-## How To Play!
+## How to Play!
 
 To try out this project, start the project in Unity, start by opening the MainMenu scene. From there, you can log in using either "Teacher" or "teacher" as the username to access the teacher's perspective. If you use any other username, you will be given access to the student's perspective. Note that the password is not checked, so you can use any value to log in.
