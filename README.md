@@ -10,10 +10,19 @@ To address these limitations, our project goal was to develop a virtual meeting 
 1. Run the whiteboard and student desk web application
 ```bash
 cd webviewer
+docker-compose up
+```
+Alternatively
+```bash
+cd webviewer
+export NODE_OPTIONS=--openssl-legacy-provider # For newer versions of node on Mac/Linux
+# set NODE_OPTIONS=--openssl-legacy-provider # For Windows
 npm install
 npm run build
 npm run dev
 ```
+
+
 
 2. Run the facial tracking model
 ```bash
