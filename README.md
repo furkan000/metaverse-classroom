@@ -1,4 +1,9 @@
-# Developing Metaverse Experiences - Metaverse Classroom
+# Metaverse Classroom - Developing Metaverse Experiences
+
+<img src="https://github.com/furkan000/metaverse-classroom/blob/main/docs/1.png?raw=true" width="33%" /> <img src="https://github.com/furkan000/metaverse-classroom/blob/main/docs/2.png?raw=true" width="33%" /> <img src="https://github.com/furkan000/metaverse-classroom/blob/main/docs/3.png?raw=true" width="33%" />
+
+## Documentation
+[Project Report](https://github.com/furkan000/metaverse-classroom/blob/main/docs/awt_pj_ws2223_report_metaverse_2.pdf)
 
 ## Introduction
 The COVID-19 pandemic has resulted in a widespread shift from in-person meetings to online meetings. 
