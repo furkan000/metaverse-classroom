@@ -1,6 +1,6 @@
 # Metaverse Classroom - Developing Metaverse Experiences
 
-<img src="https://github.com/furkan000/metaverse-classroom/blob/main/docs/1.png?raw=true" width="33%" /> <img src="https://github.com/furkan000/metaverse-classroom/blob/main/docs/2.png?raw=true" width="33%" /> <img src="https://github.com/furkan000/metaverse-classroom/blob/main/docs/3.png?raw=true" width="33%" />
+<img src="https://github.com/furkan000/metaverse-classroom/blob/main/docs/1.png?raw=true" width="30%" /> <img src="https://github.com/furkan000/metaverse-classroom/blob/main/docs/2.png?raw=true" width="30%" /> <img src="https://github.com/furkan000/metaverse-classroom/blob/main/docs/3.png?raw=true" width="30%" />
 
 ## Documentation
 [Project Report](https://github.com/furkan000/metaverse-classroom/blob/main/docs/awt_pj_ws2223_report_metaverse_2.pdf)
